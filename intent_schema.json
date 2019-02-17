@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bank account",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BankAccount",
+                    "slots": [],
+                    "samples": [
+                        "Start bank account"
+                    ]
+                },
+                {
+                    "name": "AddAccount",
+                    "slots": [],
+                    "samples": [
+                        "Add an account"
+                    ]
+                },
+                {
+                    "name": "GetBalance",
+                    "slots": [],
+                    "samples": [
+                        "What is my balance",
+                        "What is my savings account balance"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
